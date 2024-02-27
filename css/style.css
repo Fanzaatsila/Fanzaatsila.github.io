@@ -24,6 +24,7 @@ header nav {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    z-index: 1000;
     align-items: center;
 }
 
@@ -270,7 +271,7 @@ footer {
     margin: 0 auto;
     padding: 20px;
     background-color: #333;
-    color: #fff;
+    color: black;
     text-align: center;
     border-radius: 5px;
     margin-top: 20px;
