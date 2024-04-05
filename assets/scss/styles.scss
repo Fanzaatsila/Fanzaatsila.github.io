@@ -103,6 +103,8 @@ img{
 .bd-grid1{
     max-width: 1024px;
     display: grid;
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
 }
 .l-header{
     width: 100%;
