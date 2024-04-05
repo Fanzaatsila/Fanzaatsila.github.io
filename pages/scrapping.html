@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.4/datatables.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.10/css/responsive.dataTables.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
@@ -37,6 +38,9 @@
         <h2 class="section-title">Data Scrapping</h2>
         <div class="table__container bd-grid">
             <table id="newsTable" class="responsive-table">
+                <button class="button" id="reloadButton">Reload Data
+                    <i class="bx bx-refresh"></i>
+                </button>
                 <thead>
                 <tr>
                     <th>ID</th>

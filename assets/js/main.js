@@ -67,6 +67,16 @@ fetch('../../ScrappingFile/BeritaTerbaru.json')
         });
     })
     .catch(error => console.error(error));
+/*==================== SCRAPPING REFRESH DATA ====================*/
+document.getElementById('reloadButton').addEventListener('click', function() {
+    fetch('http://localhost:5000/scrape')
+        .then(response => response.json())
+        .then(data => {
+            $('#newsTable').DataTable().clear();
+            $('#newsTable').DataTable().rows.add(data);
+            $('#newsTable').DataTable().draw();
+        });
+});
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
