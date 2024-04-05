@@ -1,72 +1,65 @@
 [
   {
     "id": 1,
-    "judul": "Beredar Kabar Antrean Mengular 13 Km di Pelabuhan Gilimanuk, Ini Tanggapan Polisi",
-    "kategori": "Bali",
-    "tanggal": "5/04/2024 - 21:12",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "judul": "Buntut Sengketa Pilpres 2024 yang Memanas, IHSG Terus Mengalami Koreksi dalam Dua Pekan Terakhir",
+    "kategori": "Ekonomi Bisnis",
+    "tanggal": "4/04/2024 - 09:01",
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 2,
     "judul": "Naturalisasi Timnas Indonesia",
     "kategori": "News",
     "tanggal": "1/04/2024 - 11:42",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 3,
-    "judul": "Belum Kalah di Laga Uji Coba, Striker Eropa Ini Puji Kualitas Timnas Indonesia U-20 Arahan Indra Sjafri",
-    "kategori": "Timnas",
-    "tanggal": "5/04/2024 - 21:01",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "judul": "Hempaskan Citra Idol K-Pop, Park Ji-hoon Unjuk Bakat melalui Akting di Drama Love Song for Illusion",
+    "kategori": "Trend",
+    "tanggal": "4/04/2024 - 08:59",
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 4,
-    "judul": "Pakar: Pertemuan Jokowi dan Prabowo Tepis Isu Perpecahan",
-    "kategori": "News",
-    "tanggal": "5/04/2024 - 20:54",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "judul": "Selain Shalat Dhuha, Amalan-amalan Ini Kata Syekh Ali Jaber Juga Bisa Bikin Rezeki Mengalir Deras",
+    "kategori": "Religi",
+    "tanggal": "4/04/2024 - 08:47",
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 5,
-    "judul": "Mensos Tegaskan Kemensos Hanya Salurkan Bansos dalam Bentuk Tunai",
-    "kategori": "News",
-    "tanggal": "5/04/2024 - 20:47",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "judul": "Telak, Thom Haye Cetak Gol di Depan Pemain Keturunan yang Menolak Dinaturalisasi Timnas Indonesia",
+    "kategori": "Timnas",
+    "tanggal": "4/04/2024 - 08:38",
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 6,
-    "judul": "Justin Hubner Dapat Perlakuan Berbeda dari Cerezo Osaka, Ternyata Mulus Lepas Pemainnya ke Timnas Jepang U-23",
-    "kategori": "Timnas",
-    "tanggal": "5/04/2024 - 20:36",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "judul": "Info Mudik, Pemudik Motor di Pelabuhan Ciwandan Cilegon Ngeluh Soal Tiket: Beli Malam Berangkat Pagi",
+    "kategori": "Nasional",
+    "tanggal": "4/04/2024 - 08:00",
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 7,
-    "judul": "Peringati Hari Al Quds, Massa Gelar Demo Bela Palestina di Kedubes Amerika",
+    "judul": "BPBD DKI Ungkap Sebanyak 40 RT dan 5 Ruas Jalan Tergenang Banjir Pagi Ini",
     "kategori": "Nasional",
-    "tanggal": "5/04/2024 - 20:25",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "tanggal": "4/04/2024 - 07:32",
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 8,
-    "judul": "3 Pemain Kelas Dunia yang Doyan Merokok, Salah Satunya Keturunan Indonesia",
-    "kategori": "Bola Dunia",
-    "tanggal": "5/04/2024 - 20:19",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "judul": "WhatsApp, Instagram dan Facebook Mulai Pulih Setelah Sempat Down",
+    "kategori": "Nasional",
+    "tanggal": "4/04/2024 - 07:18",
+    "waktu_scraping": "2024-04-04 09:06:01"
   },
   {
     "id": 9,
-    "judul": "Dengan Wajah Tersenyum, Habib Bahar bin Smith Bilang Jujur Tentang Ustaz Adi Hidayat di Matanya, Habib Bahar: MasyaAllah",
-    "kategori": "Trend",
-    "tanggal": "5/04/2024 - 20:14",
-    "waktu_scraping": "2024-04-05 21:32:54"
-  },
-  {
-    "id": 10,
-    "judul": "BPS Sumsel Rilis Nilai Tukar Petani (NTP) Sumsel Naik 2,97 Persen Pada Bulan Maret 2024",
-    "kategori": "News",
-    "tanggal": "5/04/2024 - 20:02",
-    "waktu_scraping": "2024-04-05 21:32:54"
+    "judul": "Info Mudik H-6 Idulfitri, Ribuan Pemudik Motor Padati Pelabuhan Ciwandan Banten",
+    "kategori": "Nasional",
+    "tanggal": "4/04/2024 - 07:00",
+    "waktu_scraping": "2024-04-04 09:06:01"
   }
 ]
