@@ -100,6 +100,10 @@ img{
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
+.bd-grid1{
+    max-width: 1024px;
+    display: grid;
+}
 .l-header{
     width: 100%;
     position: fixed;
