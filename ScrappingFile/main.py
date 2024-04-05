@@ -1,25 +1,39 @@
 import requests
-from bs4 import BeautifulSoup
 import json
+from bs4 import BeautifulSoup
 import datetime
+from flask import Flask
+import subprocess
 
-url = "https://www.example.com"  # replace with the URL of the website you want to scrape
-response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html.parser')
+app = Flask(__name__)
 
-news = soup.find_all('div', class_='news')  # replace with the correct class name
-category = soup.find_all('div', class_='category')  # replace with the correct class name
+@app.route('/run-python-script', methods=['GET'])
+def run_python_script():
+    subprocess.call("python ScrappingFile/main.py", shell=True)
+    return "Python script run successfully"
 
-data = []
+URL = "https://www.tvonenews.com/"
+page = requests.get(URL)
 
-for i in range(len(news)):
-    data.append({
-        "id": i+1,
-        "judul": news[i].text.strip().replace("\n", ""),
-        "kategori": category[i].text.strip().replace("\n", ""),
-        "tanggal": datetime.datetime.now().strftime("%d/%m/%Y - %H:%M"),
-        "waktu_scraping": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    })
+soup = BeautifulSoup(page.content, "html.parser")
+latest = soup.find(class_="article-list-container")
 
-with open('BeritaTerbaru.json', 'w') as f:
-    json.dump(data, f)
+title = latest.find_all("h2")
+category = latest.find_all("h3")
+date = latest.find_all(class_="ali-date content_center")
+
+result = []
+scraping_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+for i in range(len(title)):
+    result.append({"id":i+1, "judul": title[i].text.strip().replace("\n", ""),
+                   "kategori":category[i].text.strip().replace("\n", ""),
+                   "tanggal":date[i].text.strip().replace("\n", ""),
+                   "waktu_scraping": scraping_time
+                   })
+hasilJSON = json.dumps(result, indent=2)
+JSONFile = open("ScrappingFile/BeritaTerbaru.json", "w")
+JSONFile.write(hasilJSON)
+JSONFile.close()
+
+if __name__ == "__main__":
+    app.run(debug=True)
