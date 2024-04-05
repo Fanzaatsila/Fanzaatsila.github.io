@@ -67,18 +67,18 @@ fetch('../../ScrappingFile/BeritaTerbaru.json')
         });
     })
     .catch(error => console.error(error));
-/*==================== SCRAPPING REFRESH DATA ====================*/
-document.getElementById('reloadButton').addEventListener('click', function() {
-    fetch('http://localhost:5000/run-python-script')
-        .then(response => response.json())
-        .then(data => {
-            let table = $('#newsTable').DataTable();
-            table.clear();
-            table.rows.add(data);
-            table.draw();
-        })
-        .catch(error => console.error(error));
-});
+// /*==================== SCRAPPING REFRESH DATA ====================*/
+// document.getElementById('reloadButton').addEventListener('click', function() {
+//     fetch('http://localhost:5000/run-python-script')
+//         .then(response => response.json())
+//         .then(data => {
+//             let table = $('#newsTable').DataTable();
+//             table.clear();
+//             table.rows.add(data);
+//             table.draw();
+//         })
+//         .catch(error => console.error(error));
+// });
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
