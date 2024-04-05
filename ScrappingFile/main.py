@@ -1,32 +1,25 @@
-from flask import Flask, jsonify
 import requests
-import json
 from bs4 import BeautifulSoup
+import json
 import datetime
 
-app = Flask(__name__)
+url = "https://www.example.com"  # replace with the URL of the website you want to scrape
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
 
-@app.route('/scrape', methods=['GET'])
-def scrape():
-    URL = "https://www.tvonenews.com/"
-    page = requests.get(URL)
+news = soup.find_all('div', class_='news')  # replace with the correct class name
+category = soup.find_all('div', class_='category')  # replace with the correct class name
 
-    soup = BeautifulSoup(page.content, "html.parser")
-    latest = soup.find(class_="article-list-container")
+data = []
 
-    title = latest.find_all("h2")
-    category = latest.find_all("h3")
-    date = latest.find_all(class_="ali-date content_center")
+for i in range(len(news)):
+    data.append({
+        "id": i+1,
+        "judul": news[i].text.strip().replace("\n", ""),
+        "kategori": category[i].text.strip().replace("\n", ""),
+        "tanggal": datetime.datetime.now().strftime("%d/%m/%Y - %H:%M"),
+        "waktu_scraping": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    })
 
-    result = []
-    scraping_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    for i in range(len(title)):
-        result.append({"id":i+1, "judul": title[i].text.strip().replace("\n", ""),
-                    "kategori":category[i].text.strip().replace("\n", ""),
-                    "tanggal":date[i].text.strip().replace("\n", ""),
-                    "waktu_scraping": scraping_time
-                    })
-    return jsonify(result)
-
-if __name__ == '__main__':
-    app.run(port=5000)
+with open('BeritaTerbaru.json', 'w') as f:
+    json.dump(data, f)
