@@ -261,6 +261,16 @@ img {
   text-align: center;
 }
 
+.table__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+table {
+  margin: 0 auto;
+}
+
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
