@@ -51,7 +51,7 @@ const sr = ScrollReveal({
 });
 
 /*==================== SCRAPPING GET DATA ====================*/
-fetch('ScrappingFile/BeritaTerbaru.json')
+fetch('../../ScrappingFile/BeritaTerbaru.json')
     .then(response => response.json())
     .then(data => {
         const tableBody = document.getElementById('newsTableBody');
