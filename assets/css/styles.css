@@ -259,6 +259,9 @@ img {
 .about__container {
   row-gap: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__subtitle {
@@ -725,7 +728,10 @@ a.read_more:hover {
     }
 
 }
-/* assets/css/styles.css */
+
+table {
+  margin: 0 auto;
+}
 table.dataTable {
   width: 100%;
   margin: 0 auto;
