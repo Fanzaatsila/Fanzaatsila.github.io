@@ -51,25 +51,22 @@ const sr = ScrollReveal({
 });
 
 /*==================== SCRAPPING GET DATA ====================*/
-fetch('ScrappingFile/BeritaTerbaru.json')
+fetch('../../ScrappingFile/BeritaTerbaru.json')
     .then(response => response.json())
     .then(data => {
-        const tableBody = document.getElementById('newsTableBody');
-        data.forEach(item => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${item.id}</td>
-                <td>${item.judul}</td>
-                <td>${item.kategori}</td>
-                <td>${item.tanggal}</td>
-                <td>${item.waktu_scraping}</td>
-            `;
-            tableBody.appendChild(row);
+        $('#newsTable').DataTable({
+            data: data,
+            columns: [
+                { data: 'id' },
+                { data: 'judul' },
+                { data: 'kategori' },
+                { data: 'tanggal' },
+                { data: 'waktu_scraping' }
+            ],
+            responsive: true
         });
-        $('#newsTable').DataTable();
     })
     .catch(error => console.error(error));
-
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 

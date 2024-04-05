@@ -35,7 +35,7 @@
     <section class="about section " id="about">
         <h2 class="section-title">About</h2>
         <div class="about__container bd-grid">
-            <table id="newsTable" class="display">
+            <table id="newsTable" class="display responsive nowrap">
                 <thead>
                 <tr>
                     <th>ID</th>
@@ -46,24 +46,6 @@
                 </tr>
                 </thead>
                 <tbody>
-                <script src="../ScrappingFile/BeritaTerbaru.json"></script>
-                <script>
-                    fetch('ScrappingFile/BeritaTerbaru.json')
-                        .then(response => response.json())
-                        .then(data => {
-                            let berita = document.getElementById('berita');
-                            data.forEach(item => {
-                                let elem = document.createElement('ul');
-                                elem.innerHTML = `
-                            <li class="berita">
-                                <a href="#" target="_blank" rel="noopener noreferrer">${item.judul}</a>
-                                <p class="berita-kategori">${item.kategori}</p><p>${item.waktu_scraping}</p>
-                            </li>
-                                `;
-                                berita.appendChild(elem);
-                            });
-                        });
-                </script>
                 </tbody>
             </table>
         </div>
