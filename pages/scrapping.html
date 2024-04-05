@@ -45,8 +45,25 @@
                     <th>Waktu Scraping</th>
                 </tr>
                 </thead>
-                <tbody id="newsTableBody">
-
+                <tbody>
+                <script src="../ScrappingFile/BeritaTerbaru.json"></script>
+                <script>
+                    fetch('ScrappingFile/BeritaTerbaru.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            let berita = document.getElementById('berita');
+                            data.forEach(item => {
+                                let elem = document.createElement('ul');
+                                elem.innerHTML = `
+                            <li class="berita">
+                                <a href="#" target="_blank" rel="noopener noreferrer">${item.judul}</a>
+                                <p class="berita-kategori">${item.kategori}</p><p>${item.waktu_scraping}</p>
+                            </li>
+                                `;
+                                berita.appendChild(elem);
+                            });
+                        });
+                </script>
                 </tbody>
             </table>
         </div>
