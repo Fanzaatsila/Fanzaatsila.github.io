@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <i align="center">Instantly generate production-ready HTML CSS apps 🚀</i>
+  <i align="center">Instantly generate production-ready HTML apps 🚀</i>
 </p>
 
 <h4 align="center">
@@ -15,4 +15,32 @@
   <a href="https://github.com/Shreejan-35/Classified"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Language"></a>
 </h4>
 
+
+<p align="center">
+    <img src="assets/img/HomeScrapping.jpg" alt="dashboard"/>
+</p>
+
+## Introduction
+
+`Fanza | Web Profile` is a website that explains about the creator of this website.  This Web Profile explains the Skills of the creator, the work he is currently doing, and the experiences that have been made by the creator of this Web Profile.  You can see the results of the projects that have been designed by the creator by directing to the blog page, then click **See Article**.
+
+<details open>
+<summary>
+ Features
+</summary> <br />
+
+
+
+</details>
+
+## Usage
+
+To get started with Amplication, the hosted version of the product can be used. You can get started immediately at [app.amplication.com](https://app.amplication.com). After the login page, you will be guided through creating your first service. The [website](https://amplication.com) provides an overview of the application, additional information on the product and guides can be found in the [docs](https://docs.amplication.com).
+
+<details>
+<summary>
+  Tutorials
+</summary> <br />
+
+</details>
 
