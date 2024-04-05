@@ -69,7 +69,7 @@ fetch('../../ScrappingFile/BeritaTerbaru.json')
     .catch(error => console.error(error));
 /*==================== SCRAPPING REFRESH DATA ====================*/
 document.getElementById('reloadButton').addEventListener('click', function() {
-    fetch('http://localhost:5000/scrape')
+    fetch('http://localhost:5000/run-python-script')
         .then(response => response.json())
         .then(data => {
             let table = $('#newsTable').DataTable();
