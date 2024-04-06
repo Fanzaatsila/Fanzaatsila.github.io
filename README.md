@@ -29,13 +29,23 @@
  Features
 </summary> <br />
 
+<p align="center">
+    <img width="49%" src="assets/img/AboutScrapping.jpg" alt="apis"/>
+&nbsp;
+    <img width="49%" src="assets/img/MyLatestProjectScrapping.jpg" alt="data-models"/>
+</p>
 
+<p align="center">
+    <img width="49%" src="assets/img/SkillsScrapping.jpg" alt="plugins"/>
+&nbsp;
+    <img width="49%" src="assets/img/WorkNowScrapping.jpg" alt="microservices"/>
+</p> 
 
 </details>
 
 ## Usage
 
-To get started with this Github Pages, the hosted version of the product can be used. You can get started immediately at [Fanza | Web Profile](https://shreejan-35.github.io/Fanza-Web-Profile/).
+To get started with this Github Pages, the hosted version of the product can be used. You can get started immediately at [Fanza | Web Profile](https://Fanzaatsila.github.io).
 
 <details>
 <summary>
@@ -56,10 +66,11 @@ To be able to start development on Amplication, make sure that you have the foll
 
 ###
 - Python
+- HTML
+- CSS
 - JS
 - Git
 </details>
-
 <details open>
 <summary>
 Running Amplication
@@ -74,12 +85,13 @@ Running Amplication
 git clone https://github.com/Fanzaatsila/Fanzaatsila.github.io
 ```
 
-2. Run the setup script, which takes care of installing dependencies, building packages, and setting up the workspace:
+2. Run the setup script, for running Main.py to send new data Scrapping:
 ```shell
 python main.py
 ```
 ## Resources
 
 - **[Website](https://Fanzaatsila.github.io)** overview of the product.
+- **[Website](https://fanzaatsila.github.io/pages/scrapping.html)** overview of the ScrappingData.
 - **[GitHub](https://github.com/Fanzaatsila/Fanzaatsila.github.io)** for source code, project board, issues, and pull requests.
 
