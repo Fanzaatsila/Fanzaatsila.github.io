@@ -44,3 +44,42 @@ To get started with this Github Pages, the hosted version of the product can be 
 
 </details>
 
+## Development
+
+Alternatively, instead of using the hosted version of the product, Amplication can be run locally for code generation purposes or contributions - if so, please refer to our [contributing](#contributing_anchor) section.
+
+<details open>
+<summary>
+Pre-requisites
+</summary> <br />
+To be able to start development on Amplication, make sure that you have the following prerequisites installed:
+
+###
+- Python
+- JS
+- Git
+</details>
+
+<details open>
+<summary>
+Running Amplication
+</summary> <br />
+
+> **Note**
+> It is also possible to start development with GitHub Codespaces, when navigating to `< > Code`, select `Codespaces` instead of `Local`. Click on either the `+`-sign or the `Create codespace on master`-button.
+
+**BEFORE** you run the following steps make sure:
+1. Clone the repository and install dependencies:
+```shell
+git clone https://github.com/Fanzaatsila/Fanzaatsila.github.io
+```
+
+2. Run the setup script, which takes care of installing dependencies, building packages, and setting up the workspace:
+```shell
+python main.py
+```
+## Resources
+
+- **[Website](https://Fanzaatsila.github.io)** overview of the product.
+- **[GitHub](https://github.com/Fanzaatsila/Fanzaatsila.github.io)** for source code, project board, issues, and pull requests.
+
