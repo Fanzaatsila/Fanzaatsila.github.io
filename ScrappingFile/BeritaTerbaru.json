@@ -1,72 +1,65 @@
 [
   {
     "id": 1,
-    "judul": "Cegah Kecelakaan, Kakorlantas Imbau Pemudik Tak Paksakan Mengemudi Saat Kelelahan",
-    "kategori": "Nasional",
-    "tanggal": "11/04/2024 - 16:31",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "judul": "Dewan Pembina Golkar Dukung Tindakan Tegas TNI dan Dorong Pendekatan Kesejahteraan di Papua",
+    "kategori": "News",
+    "tanggal": "16/04/2024 - 09:30",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 2,
-    "judul": "Pulang Mudik",
+    "judul": "Boston: Enam Bintang (Bagian 1)",
     "kategori": "News",
-    "tanggal": "8/04/2024 - 12:06",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "tanggal": "15/04/2024 - 18:17",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 3,
-    "judul": "Asyiknya Menikmati Dodol Betawi Sesudah Lebaran dengan Kopi Pahit",
-    "kategori": "Religi",
-    "tanggal": "11/04/2024 - 16:30",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "judul": "Nasrullo Kabirov Rugikan Timnas Indonesia U-23, Netizen Tanah Air Serang Media Sosial Federasi Sepak Bola Tajikistan",
+    "kategori": "Timnas",
+    "tanggal": "16/04/2024 - 09:13",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 4,
-    "judul": "Prabowo Sampai Sambangi Jokowi di Istana Dua Kali Selama Lebaran, Ini Kata Gerindra",
+    "judul": "Jubir MK Sebut Sudah Tak Ada Lagi Sidang Lanjutan Sengketa Pilpres, Ini Jadwal Penyampaian Kesimpulan",
     "kategori": "Nasional",
-    "tanggal": "11/04/2024 - 16:17",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "tanggal": "16/04/2024 - 09:11",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 5,
-    "judul": "Timnas Indonesia U-23 Jadi Skuad ASEAN Termahal Piala Asia U-23",
-    "kategori": "Timnas",
-    "tanggal": "11/04/2024 - 16:16",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "judul": "Rekayasa Lalu Lintas Arus Balik Lebaran One Way Dihentikan Pagi Ini",
+    "kategori": "Nasional",
+    "tanggal": "16/04/2024 - 09:08",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 6,
-    "judul": "Kereta Cepat Whoosh Alami Peningkatan Penumpang saat Lebaran, Ini Dia Rute Favorit Penumpang",
+    "judul": "Gerindra Respon Peluang PPP Gabung Koalisi Prabowo-Gibran, Muzani: Mudah-mudahan",
     "kategori": "Nasional",
-    "tanggal": "11/04/2024 - 16:16",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "tanggal": "16/04/2024 - 09:02",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 7,
-    "judul": "Ungkapan Jujur Calvin Verdonk, Ternyata Mau Dinaturalisasi ke Timnas Indonesia karena di Belanda\u2026",
-    "kategori": "Timnas",
-    "tanggal": "11/04/2024 - 16:13",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "judul": "Korea Selatan Keluarkan Travel Warning ke Iran",
+    "kategori": "Internasional",
+    "tanggal": "16/04/2024 - 08:55",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 8,
-    "judul": "Kabar Baik! Susi Air Terbang Perdana Rute Muara Teweh - Palangka Raya Pakai Pesawat Cessna",
+    "judul": "Masih di Bawah Rekor Tertingginya, Harga Emas Antam Menguat ke Rp1,321 Juta per Gram pada Hari Selasa",
     "kategori": "Ekonomi Bisnis",
-    "tanggal": "11/04/2024 - 16:12",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "tanggal": "16/04/2024 - 08:53",
+    "waktu_scraping": "2024-04-16 09:36:26"
   },
   {
     "id": 9,
-    "judul": "KKB Kembali Disebut OPM, Ini Penjelasan Panglima TNI",
-    "kategori": "News",
-    "tanggal": "11/04/2024 - 16:10",
-    "waktu_scraping": "2024-04-11 16:40:21"
-  },
-  {
-    "id": 10,
-    "judul": "Israel Serang Gaza, 3 Putra Pimpinan Hamas Tewas",
-    "kategori": "News",
-    "tanggal": "11/04/2024 - 16:00",
-    "waktu_scraping": "2024-04-11 16:40:21"
+    "judul": "PSSI akan Layangkan Surat Protes ke AFC, Buntut Kinerja Buruk Wasit Nasrullo Kabirov di Laga Qatar U-23 Vs Timnas Indonesia U-23",
+    "kategori": "Timnas",
+    "tanggal": "16/04/2024 - 08:52",
+    "waktu_scraping": "2024-04-16 09:36:26"
   }
 ]
